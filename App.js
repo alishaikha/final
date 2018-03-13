@@ -45,7 +45,7 @@ export default class App extends React.Component {
     rowMap[`${secId}${rowId}`].props.closeRow();
 
     // Airtable API endpoint
-    let airtableUrl = "https://api.airtable.com/v0/appcHbzra18TOUHEL/ideas/" + data.id;
+    let airtableUrl = "https://api.airtable.com/v0/app20vh4mBTG10F4j/fruit" + data.id;
 
     // Needed for Airtable authorization
     let requestOptions = {
@@ -76,7 +76,7 @@ export default class App extends React.Component {
     rowMap[`${secId}${rowId}`].props.closeRow();
 
     // Airtable API endpoint
-    let airtableUrl = "https://api.airtable.com/v0/appcHbzra18TOUHEL/ideas/" + data.id;
+    let airtableUrl = "https://api.airtable.com/v0/app20vh4mBTG10F4j/fruit" + data.id;
 
     // Needed for Airtable authorization
     let requestOptions = {
@@ -126,7 +126,7 @@ export default class App extends React.Component {
     newIdeasData.splice(rowId, 1);
 
     // Airtable API endpoint
-    let airtableUrl = "https://api.airtable.com/v0/appcHbzra18TOUHEL/ideas/" + data.id;
+    let airtableUrl = "https://api.airtable.com/v0/app20vh4mBTG10F4j/fruit" + data.id;
 
     // Needed for Airtable authorization
     let requestOptions = {
